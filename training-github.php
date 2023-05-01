@@ -8,10 +8,10 @@ Author: Timothy Roy Vergara
 Author URI: https://www.inboundfound.com
 */
 
-function if_create_movie_post_type() {
+function if_create_movie_post_types() {
 	$labels = array(
-		'name'               => __( 'Movies', 'inbound-found-training' ),
-		'singular_name'      => __( 'Movie', 'inbound-found-training' ),
+		'name'               => __( 'Books', 'inbound-found-training' ),
+		'singular_name'      => __( 'Book', 'inbound-found-training' ),
 		'add_new'            => __( 'Add New', 'inbound-found-training' ),
 		'add_new_item'       => __( 'Add New Movie', 'inbound-found-training' ),
 		'edit_item'          => __( 'Edit Movie', 'inbound-found-training' ),
@@ -46,6 +46,6 @@ function if_create_movie_post_type() {
 	register_post_type( 'movie', $args );
 }
 
-add_action( 'init', 'if_create_movie_post_type' );
+add_action( 'init', 'if_create_movie_post_types' );
 
 ?>
