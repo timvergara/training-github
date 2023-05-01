@@ -9,7 +9,7 @@ Author URI: https://www.inboundfound.com
 */
 function if_create_meds_post_type() {
   $labels = array(
-    'name'               => __( 'Power Rangers', 'inbound-found-training' ),
+    'name'               => __( 'Powers', 'inbound-found-training' ),
     'singular_name'      => __( 'Medicine', 'inbound-found-training' ),
     'add_new'            => __( 'Add New', 'inbound-found-training' ),
     'add_new_item'       => __( 'Add New Movie', 'inbound-found-training' ),
