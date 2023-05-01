@@ -9,7 +9,7 @@ Author URI: https://www.inboundfound.com
 */
 function if_create_ichanged_post_type() {
   $labels = array(
-    'name'               => __( 'Ichanged', 'inbound-found-training' ),
+    'name'               => __( 'Last Change', 'inbound-found-training' ),
     'singular_name'      => __( 'Medicine', 'inbound-found-training' ),
     'add_new'            => __( 'Add New', 'inbound-found-training' ),
     'add_new_item'       => __( 'Add New Movie', 'inbound-found-training' ),
