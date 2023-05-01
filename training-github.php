@@ -7,7 +7,7 @@ Version: 1.0
 Author: Timothy Roy Vergara
 Author URI: https://www.inboundfound.com
 */
-function if_create_ichanged_post_type() {
+function if_create_ticket_post_type() {
   $labels = array(
     'name'               => __( 'Last Change', 'inbound-found-training' ),
     'singular_name'      => __( 'Medicine', 'inbound-found-training' ),
