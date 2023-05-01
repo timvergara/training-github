@@ -7,10 +7,10 @@ Version: 1.0
 Author: Timothy Roy Vergara
 Author URI: https://www.inboundfound.com
 */
-function if_create_power_cell_post_type() {
+function if_create_meds_post_type() {
   $labels = array(
-    'name'               => __( 'Power Cells', 'inbound-found-training' ),
-    'singular_name'      => __( 'Power Cell', 'inbound-found-training' ),
+    'name'               => __( 'Medicines', 'inbound-found-training' ),
+    'singular_name'      => __( 'Medicine', 'inbound-found-training' ),
     'add_new'            => __( 'Add New', 'inbound-found-training' ),
     'add_new_item'       => __( 'Add New Movie', 'inbound-found-training' ),
     'edit_item'          => __( 'Edit Movie', 'inbound-found-training' ),
