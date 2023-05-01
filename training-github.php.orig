@@ -9,8 +9,13 @@ Author URI: https://www.inboundfound.com
 */
 function if_create_ticket_post_type() {
   $labels = array(
+<<<<<<< HEAD
     'name'               => __( 'Final Change', 'inbound-found-training' ),
+    'singular_name'      => __( 'Medicine', 'inbound-found-training' ),
+=======
+    'name'               => __( 'Movies', 'inbound-found-training' ),
     'singular_name'      => __( 'Movies', 'inbound-found-training' ),
+>>>>>>> e4bdee580478ab2b03a41fcf448100d3eed87fee
     'add_new'            => __( 'Add New', 'inbound-found-training' ),
     'add_new_item'       => __( 'Add New Movie', 'inbound-found-training' ),
     'edit_item'          => __( 'Edit Movie', 'inbound-found-training' ),
